@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+/*************** Font Face *****************/
+@font-face { font-family: 'Gotham-Bold_1'; src: url('../fonts/Gotham-Bold_1.ttf') format('truetype'); }
+@font-face {
+    font-family: 'Gotham-Bold_1';
+    src: url('../fonts/Gotham-Bold_1.eot');
+    src: url('../fonts/Gotham-Bold_1.eot') format('embedded-opentype'),
+         url('../fonts/Gotham-Bold_1.woff2') format('woff2'),
+         url('../fonts/Gotham-Bold_1.woff') format('woff'),
+         url('../fonts/Gotham-Bold_1.ttf') format('truetype'),
+         url('../fonts/Gotham-Bold_1.svg#Gotham-Bold_1') format('svg');
+}
+
+@font-face { font-family: 'Gotham-Light_0'; src: url('../fonts/Gotham-Light_0.otf') format('opentype'); }
+@font-face { font-family: 'Gotham-Book_1'; src: url('../fonts/Gotham-Book_1.ttf') format('truetype'); }
+
+@font-face {
+    font-family: 'Gotham-Book_1';
+    src: url('../fonts/Gotham-Book_1.eot');
+    src: url('../fonts/Gotham-Book_1.eot') format('embedded-opentype'),
+         url('../fonts/Gotham-Book_1.woff2') format('woff2'),
+         url('../fonts/Gotham-Book_1.woff') format('woff'),
+         url('../fonts/Gotham-Book_1.ttf') format('truetype'),
+         url('../fonts/Gotham-Book_1.svg#Gotham-Book_1') format('svg');
+}
+
+
+
+@font-face { font-family: 'avenir-medium-webfont_1'; src: url('../fonts/avenir-medium-webfont_1.ttf') format('truetype'); }
+@font-face {
+    font-family: 'avenir-medium-webfont_1';
+    src: url('../fonts/avenir-medium-webfont_1.eot');
+    src: url('../fonts/avenir-medium-webfont_1.eot') format('embedded-opentype'),
+         url('../fonts/avenir-medium-webfont_1.woff2') format('woff2'),
+         url('../fonts/avenir-medium-webfont_1.woff') format('woff'),
+         url('../fonts/avenir-medium-webfont_1.ttf') format('truetype'),
+         url('../fonts/avenir-medium-webfont_1.svg#avenir-medium-webfont_1') format('svg');
+}
+
+@font-face { font-family: 'avenir-book-webfont_1'; src: url('../fonts/avenir-book-webfont_1.ttf') format('truetype'); }
+
+@font-face {
+    font-family: 'avenir-book-webfont_1';
+    src: url('../fonts/avenir-book-webfont_1.eot');
+    src: url('../fonts/avenir-book-webfont_1.eot') format('embedded-opentype'),
+         url('../fonts/avenir-book-webfont_1.woff2') format('woff2'),
+         url('../fonts/avenir-book-webfont_1.woff') format('woff'),
+         url('../fonts/avenir-book-webfont_1.ttf') format('truetype'),
+         url('../fonts/avenir-book-webfont_1.svg#avenir-book-webfont_1') format('svg');
+}
+@font-face { font-family: 'Avenir-Light_2'; src: url('../fonts/Avenir-Light_2.ttf') format('truetype'); }
+
+@font-face {
+    font-family: 'Avenir-Light_2';
+    src: url('../fonts/Avenir-Light_2.eot');
+    src: url('../fonts/Avenir-Light_2.eot') format('embedded-opentype'),
+         url('../fonts/Avenir-Light_2.woff2') format('woff2'),
+         url('../fonts/Avenir-Light_2.woff') format('woff'),
+         url('../fonts/Avenir-Light_2.ttf') format('truetype'),
+         url('../fonts/Avenir-Light_2.svg#Avenir-Light_2') format('svg');
+}
+
+@font-face { font-family: 'Avenir-Roman_1'; src: url('../fonts/Avenir-Roman_1.ttf') format('truetype'); }
+@font-face { font-family: 'AvenirLtStd85heavyReg_0'; src: url('../fonts/AvenirLtStd85heavyReg_0.ttf') format('truetype'); }
+
+@font-face {
+    font-family: 'AvenirLtStd85heavyReg_0';
+    src: url('../fonts/AvenirLtStd85heavyReg_0.eot');
+    src: url('../fonts/AvenirLtStd85heavyReg_0.eot') format('embedded-opentype'),
+         url('../fonts/AvenirLtStd85heavyReg_0.woff2') format('woff2'),
+         url('../fonts/AvenirLtStd85heavyReg_0.woff') format('woff'),
+         url('../fonts/AvenirLtStd85heavyReg_0.ttf') format('truetype'),
+         url('../fonts/AvenirLtStd85heavyReg_0.svg#AvenirLtStd85heavyReg_0') format('svg');
+}
+
+@font-face { font-family: 'Avenir-Black_1'; src: url('../fonts/Avenir-Black_1.ttf') format('truetype'); }
+
+@font-face {
+    font-family: 'Avenir-Black_1';
+    src: url('../fonts/Avenir-Black_1.eot');
+    src: url('../fonts/Avenir-Black_1.eot') format('embedded-opentype'),
+         url('../fonts/Avenir-Black_1.woff2') format('woff2'),
+         url('../fonts/Avenir-Black_1.woff') format('woff'),
+         url('../fonts/Avenir-Black_1.ttf') format('truetype'),
+         url('../fonts/Avenir-Black_1.svg#Avenir-Black_1') format('svg');
+}
+@font-face { font-family: 'AvenirLtStdHeavy_0'; src: url('../fonts/AvenirLtStdHeavy_0.ttf') format('truetype'); }
+@font-face {
+    font-family: 'AvenirLtStdHeavy_0';
+    src: url('../fonts/AvenirLtStdHeavy_0.eot');
+    src: url('../fonts/AvenirLtStdHeavy_0.eot') format('embedded-opentype'),
+         url('../fonts/AvenirLtStdHeavy_0.woff2') format('woff2'),
+         url('../fonts/AvenirLtStdHeavy_0.woff') format('woff'),
+         url('../fonts/AvenirLtStdHeavy_0.ttf') format('truetype'),
+         url('../fonts/AvenirLtStdHeavy_0.svg#AvenirLtStdHeavy_0') format('svg');
+}
+@font-face { font-family: 'Avenir-Light_1'; src: url('../fonts/Avenir-Light_1.ttf') format('truetype'); }
+@font-face { font-family: 'Avenir-LightOblique_0'; src: url('../fonts/Avenir-LightOblique_0.ttf') format('truetype'); }
+
+@font-face {
+    font-family: 'Avenir-LightOblique_0';
+    src: url('../fonts/Avenir-LightOblique_0.eot');
+    src: url('../fonts/Avenir-LightOblique_0.eot') format('embedded-opentype'),
+         url('../fonts/Avenir-LightOblique_0.woff2') format('woff2'),
+         url('../fonts/Avenir-LightOblique_0.woff') format('woff'),
+         url('../fonts/Avenir-LightOblique_0.ttf') format('truetype'),
+         url('../fonts/Avenir-LightOblique_0.svg#Avenir-LightOblique_0') format('svg');
+}
+
+
+@font-face { font-family: 'AvenirLtStd95BlackReg_0'; src: url('../fonts/AvenirLtStd95BlackReg_0.ttf') format('truetype'); }
+@font-face { font-family: 'avenir-bookoblique-webfont_1'; src: url('../fonts/avenir-bookoblique-webfont_1.ttf') format('truetype'); }
+
+@font-face {
+    font-family: 'avenir-bookoblique-webfont_1';
+    src: url('../fonts/avenir-bookoblique-webfont_1.eot');
+    src: url('../fonts/avenir-bookoblique-webfont_1.eot') format('embedded-opentype'),
+         url('../fonts/avenir-bookoblique-webfont_1.woff2') format('woff2'),
+         url('../fonts/avenir-bookoblique-webfont_1.woff') format('woff'),
+         url('../fonts/avenir-bookoblique-webfont_1.ttf') format('truetype'),
+         url('../fonts/avenir-bookoblique-webfont_1.svg#avenir-bookoblique-webfont_1') format('svg');
+}
+
+
+
+@font-face { font-family: 'AvenirLtStd55Roman_0'; src: url('../fonts/AvenirLtStd55Roman_0.ttf') format('truetype'); }
+
+@font-face {
+    font-family: 'AvenirLtStd55Roman_0';
+    src: url('../fonts/AvenirLtStd55Roman_0.eot');
+    src: url('../fonts/AvenirLtStd55Roman_0.eot') format('embedded-opentype'),
+         url('../fonts/AvenirLtStd55Roman_0.woff2') format('woff2'),
+         url('../fonts/AvenirLtStd55Roman_0.woff') format('woff'),
+         url('../fonts/AvenirLtStd55Roman_0.ttf') format('truetype'),
+         url('../fonts/AvenirLtStd55Roman_0.svg#AvenirLtStd55Roman_0') format('svg');
+}
+
+@font-face { font-family: 'AvenirLtStdLight_0'; src: url('../fonts/AvenirLtStdLight_0.ttf') format('truetype'); }
+/*************** Global Styles *****************/
+* { margin: 0; padding: 0;}
+
+.container { width: 1024px; height: 768px; background-image: url(../images/global/mainBg.png); background-size: 1024px 768px; background-repeat: no-repeat; position: relative; top:0px; left: 0px; margin: 0 auto;overflow: hidden;}
+#line { width: 1024px; height: 1px; background-color: #763f98; position: absolute; top: 162px; }
+#safetyline { width: 1024px; height: 1px; background-color: #763f98; position: absolute; top: 168px; }
+ul li {list-style: none;}
+/*************** Bottom Nav *****************/
+#btmNav { background-image: url(../images/moa/nav.png); background-repeat: no-repeat; background-size: 1024px 132px; position: absolute; top: 636px; width: 1024px; height: 132px; }
+#home { position: absolute; top: 559px; left: 783px; background-image: url(../images/global/home.png); background-repeat: no-repeat; background-size: 71px 71px; width: 72px; height: 72px; }
+#home1 { position: absolute; top: 559px; left: 783px; background-image: url(../images/slider/home.png); background-repeat: no-repeat; background-size: 71px 71px; width: 72px; height: 72px; }
+#frwd { position: absolute; top: 551px; left: 847px; background-image: url(../images/global/frwd.png); background-repeat: no-repeat; background-size: 85px 87px; width: 78px; height: 78px; }
+#nxtbtn { position: absolute; top: 551px; left: 924px; background-image: url(../images/global/nxt.png); background-repeat: no-repeat; background-size: 85px 87px; width: 78px; height: 78px; }
+#nxtbtn1 { position: absolute; top: 551px; left: 924px; background-image: url(../images/dosing2/nxt.png); background-repeat: no-repeat; background-size: 85px 87px; width: 78px; height: 78px; }
+#menu1 { position: absolute; top: 655px; width: 256px; height: 113px; z-index: 2; }
+#menu2 { position: absolute; top: 655px; left: 256px; width: 256px; height: 113px; z-index: 2; }
+#menu3 { position: absolute; top: 655px; left: 513px; width: 256px; height: 113px; z-index: 2; }
+#menu4 { position: absolute; top: 655px; left: 769px; width: 255px; height: 113px; z-index: 2; }
+#menu1Txt { position: absolute; top: 39px; left: 115px; color: #ffffff; font-family: 'avenir-book-webfont_1'; font-size: 17.6px; line-height: 20px; }
+#menu2Txt { position: absolute; top: 42px; left: 101px; color: #763E97; font-family: 'avenir-book-webfont_1'; font-size: 17.6px; line-height: 14px; }
+#menu2Txt sub { position: relative; top: 2px; }
+#menu3Txt { position: absolute; top: 39px; left: 108px; color: #763E97; font-family: 'avenir-book-webfont_1'; font-size: 17.6px; line-height: 20px; }
+#menu4Txt { position: absolute; top: 50px; left: 108px; color: #763E97; font-family: 'avenir-book-webfont_1'; font-size: 17.6px; line-height: 20px; }
+/*************** Bottom Nav Benefits *****************/
+#benefitsNav { background-image: url(../images/benefits/nav.png); background-repeat: no-repeat; background-size: 1024px 132px; position: absolute; top: 636px; width: 1024px; height: 132px; }
+#benefitsmenu1 { position: absolute; top: 655px; width: 256px; height: 113px; z-index: 2; }
+#benefitsmenu2 { position: absolute; top: 655px; left: 256px; width: 256px; height: 113px; z-index: 2; }
+#benefitsmenu1Txt { position: absolute; top: 39px; left: 115px; color: #763E97; font-family: 'avenir-book-webfont_1'; font-size: 17.6px; line-height: 20px; }
+#benefitsmenu2Txt { position: absolute; top: 42px; left: 101px; color: #ffffff; font-family: 'avenir-book-webfont_1'; font-size: 17.6px; line-height: 14px; }
+#benefitsmenu3Txt { position: absolute; top: 42px; left: 101px; color: #ffffff; font-family: 'avenir-book-webfont_1'; font-size: 17.6px; line-height: 14px; }
+#benefitsmenu2Txt sub { position: relative; top: 2px; }
+/*************** Bottom Nav Safety *****************/
+#safetyNav { background-image: url(../images/safety/nav.png); background-repeat: no-repeat; background-size: 1024px 132px; position: absolute; top: 636px; width: 1024px; height: 132px; }
+#safetymenu2 { position: absolute; top: 655px; left: 256px; width: 256px; height: 113px; z-index: 2; }
+#safetymenu3 { position: absolute; top: 655px; left: 513px; width: 256px; height: 113px; z-index: 2; }
+#safetymenu2Txt { position: absolute; top: 42px; left: 101px; color: #763E97; font-family: 'avenir-book-webfont_1'; font-size: 17.6px; line-height: 14px; }
+#safetymenu2Txt sub { position: relative; top: 2px; }
+#safetymenu3Txt {position: absolute;top: 39px;left: 108px;color: #ffffff;font-family: 'avenir-book-webfont_1';font-size: 17.6px;line-height: 20px;}
+/*************** Bottom Nav Dosing *****************/
+#dosingNav { background-image: url(../images/dosing/nav.png); background-repeat: no-repeat; background-size: 1024px 132px; position: absolute; top: 636px; width: 1024px; height: 132px; }
+#dosingmenu2 { position: absolute; top: 655px; left: 256px; width: 256px; height: 113px; z-index: 2; }
+#dosingmenu4 { position: absolute; top: 655px; left: 769px; width: 255px; height: 113px; z-index: 2; }
+#dosingmenu3Txt {position: absolute;top: 39px;left: 108px;color: #ffffff;font-family: 'avenir-book-webfont_1';font-size: 17.6px;line-height: 20px;}
+#dosingmenu1Txt {position: absolute;top: 39px;left: 115px;color: #763E97;font-family: 'avenir-book-webfont_1';font-size: 17.6px;line-height: 20px;}
+#dosingmenu4Txt { position: absolute; top: 50px; left: 108px; color: #ffffff; font-family: 'avenir-book-webfont_1'; font-size: 17.6px; line-height: 20px; }
+/*************** Bottom Nav Dosing2 *****************/
+#dosing2Nav { background-image: url(../images/dosing2/nav.png); background-repeat: no-repeat; background-size: 1024px 132px; position: absolute; top: 636px; width: 1024px; height: 132px; }
+#dosing2Navmenu1Txt { position: absolute; top: 39px; left: 115px; color: #763E97; font-family: 'avenir-book-webfont_1'; font-size: 17.6px; line-height: 20px; }
+/*************** Bottom Nav Slider *****************/
+#sliderNav { background-image: url(../images/slider/nav.png); background-repeat: no-repeat; background-size: 1024px 132px; position: absolute; top: 636px; width: 1024px; height: 132px; }
+#slidermenu4 { position: absolute; top: 655px; left: 769px; width: 255px; height: 113px; z-index: 2; }
+#slidermenu4Txt { position: absolute; top: 50px; left: 108px; color: #763E97; font-family: 'avenir-book-webfont_1'; font-size: 17.6px; line-height: 20px; }
+/*************** Right Top Nav *****************/
+#info { width: 109px; height: 34px; border-radius: 30px; border: 2px solid #763f98; position: absolute; left: 763px; top: 25px; cursor: pointer; }
+#info span { font-family: 'avenir-medium-webfont_1'; font-size: 12px; color: #763f98; text-align: center; line-height: 13px; position: absolute; left: 23px; top: 5px; }
+#bgraphy { width: 109px; height: 34px; border-radius: 30px; border: 2px solid #763f98; position: absolute; left: 886px; top: 25px; cursor: pointer; }
+#bgraphy span { font-family: 'avenir-medium-webfont_1'; font-size: 12px; color: #763f98; text-align: center; line-height: 14px; position: absolute; left: 20px; top: 11px; }

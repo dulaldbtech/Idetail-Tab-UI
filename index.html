@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>QTERN | MoA</title>
+<link rel="stylesheet" href="css/global.css">
+<link rel="stylesheet" href="css/moa.css">
+</head>
+<body>
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Top Buttons --> 
+  <a href="prescribe.html">
+  <div id="infoOverlay"></div>
+  </a> <a href="biblio.html">
+  <div id="bibOverlay"></div>
+  </a>
+  <div id="info"><span>Prescribing<br/>
+    information</span></div>
+  <div id="bgraphy"><span>Bibliography</span></div>
+  <div id="line"></div>
+  <!-- Header -->
+  <header> Combines complementary mechanisms of action <sup style="position: relative; left: -7px; font-size: 18px;">4</sup></header>
+  <!-- Main Content -->
+  <div id="txt1">INSULIN-INDEPENDENT Mechanism</div>
+  <div id="txt1btm">(kidneys)</div>
+  <div id="txt2">INSULIN-DEPENDENT Mechanism</div>
+  <div id="txt2btm">(<span style="font-size: 15px;">&beta;</span> <span>CELLS</span>) </div>
+  <div id="dap">(dapagliflozin)</div>
+  <div id="sax">(saxagliptin) </div>
+  <div id="kidney">kidneys</div>
+  <div id="gut">gut</div>
+  <div id="pan">pancreas</div>
+  <div id="liver">liver</div>
+  <div class="sglAnimate"> </div>
+  <div id="mainImg">
+    <div id="sglTxt">SGLT2i</div>
+    <div id="dppTxt">DPP4i</div>
+    <div id="sgl"></div>
+    <div id="dpp"></div>
+  </div>
+  <footer>DPP4i = dipeptidyl peptidase-4 inhibitor; SGLT2i = sodium-glucose <br/>
+    cotransporter-2 inhibitor; SU = sulphonylurea.</footer>
+  <!-- Navigation Buttons--> 
+  <a href="index.html">
+  <div id="home"></div>
+  </a> <a href="slider.html">
+  <div id="frwd"></div>
+  </a> <a href="benefits.html">
+  <div id="nxtbtn"></div>
+  </a> 
+  <!-- Bottom Nav -->
+  <div id="menu1"><span id="menu1Txt">Mechanism<br/>
+    of action</span></div>
+  <a href="benefits.html">
+  <div id="menu2"><span id="menu2Txt">HbA<sub><small>1c</small></sub><br/>
+    reductions</span></div>
+  </a> <a href="safety.html">
+  <div id="menu3"><span id="menu3Txt">Safety<br/>
+    profile</span></div>
+  </a> <a href="dosing.html">
+  <div id="menu4"><span id="menu4Txt">Dosing</span></div>
+  </a>
+  <div id="btmNav"></div>
+  <!---=-----=---------- PopUps -----=---------=--->
+  <div class="overlay"></div>
+  <!---=-----=---------- SGL popUp Content -----=---------=--->
+  <div id="sglclose"></div>
+  <div id="sglFooter">*FORXIGA<sup><small>®</small></sup> and <span>Q<span>TERN</span>™</span> are not indicated for the management of weight loss<br/>
+    or high blood pressure. Weight change was a secondary endpoint in<br/>
+    clinical trials.</div>
+  <div id="sglpopUp">
+    <div id="tringl1"></div>
+    <div id="insulin">Insulin-independent mechanism</div>
+    <p id="para1">SGLT2 inhibition reduces glucose<br/>
+      reabsorption by the kidneys and<br/>
+      increases glucose excretion in the urine.</p>
+    <p id="para2">SGLT2 inhibitors act on a pathway<br/>
+      independent of the level of &beta; cell function<br/>
+      to provide a glucose-lowering effect.</p>
+    <div id="tringl2"></div>
+    <div id="core">Core benefits</div>
+    <ul id="coreList">
+      <li>HbA<sub>1c</sub> reduction</li>
+      <li>Low risk of hypoglycaemia<br/>
+        (unless used with an SU)</li>
+      <li>Well tolerated</li>
+    </ul>
+    <div id="tringl3"></div>
+    <div id="addtnl">Additional benefits</div>
+    <ul id="addtnlList">
+      <li>Weight loss*</li>
+      <li>Systolic BP reduction*</li>
+    </ul>
+  </div>
+  <!---=-----=---------- DPP popUp Content -----=---------=--->
+  <div id="dppclose"></div>
+  <div id="dpppopUp">
+    <div id="dpptri1"></div>
+    <div id="dppInsulin">Insulin-dependent mechanism</div>
+    <p id="dppContent">DPP4 inhibition increases concentrations<br/>
+      of the incretin hormones GLP-1 and GIP,<br/>
+      which results in a glucose-dependent<br/>
+      increase in insulin secretion, reduction<br/>
+      in glucagon secretion, improved glucose<br/>
+      uptake in peripheral tissue and reduced<br/>
+      hepatic glucose production.</p>
+    <div id="dpptri2"></div>
+    <div id="coredpp">Core benefits</div>
+    <ul id="coredppList">
+      <li>Additional HbA<sub>1c</sub> reduction</li>
+      <li>Low risk of hypoglycaemia<br/>
+        (unless used with an SU)</li>
+      <li>Well tolerated</li>
+    </ul>
+  </div>
+  <!---------------- Info popUp -------------->
+  <div id="infopopUp">
+    <div id="infoactive"><span>Prescribing<br/>
+      information</span></div>
+    <div id="infohead">Prescribing information</div>
+    <div id="infoLine"></div>
+    <div id="infoText">Placeholder for FORXIGA, ONGLYZA and <span>Q<span>TERN</span></span> prescribing information</div>
+    <div id="bgraphyactive"><span>Bibliography</span></div>
+  </div>
+  <!---------------- BiblioGraphy popUp -------------->
+  <div id="bgraphypopUp"> </div>
+</div>
+<!-- Scripts --> 
+<script type="text/javascript" src="js/jquery.js"></script> 
+<script type="text/javascript" src="js/moa.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+header { color: #763f98; font-family: 'avenir-book-webfont_1'; position: absolute; top: 116px; left: 106px; font-size: 28.6px; }
+#mainImg { position: absolute; top: 209px; left: 73px; background-image: url(../images/moa/mainImg.png); background-repeat: no-repeat; background-size: 877px 434px; width: 857px; height: 402px; }
+#sgl { position: absolute; top: 206px; left: 325px; width: 34px; height: 36px; opacity: 0.5; border-radius: 50%; z-index: 1; cursor: pointer;}
+
+#dpp { position: absolute; top: 174px; left: 501px; width: 34px; height: 36px; opacity: 0.5; border-radius: 31px;
+ z-index: 1; cursor: pointer; }
+
+#txt1 { position: absolute; top: 206px; left: 143px; color: #9f2943; font-family: 'AvenirLtStd85heavyReg_0'; font-size: 14px; text-transform: uppercase; }
+#txt1btm { position: absolute; top: 223px; left: 237px; color: #9f2943; font-family: 'avenir-book-webfont_1'; font-size: 14px; text-transform: uppercase; }
+#txt2 { position: absolute; top: 207px; left: 615px; color: #707271; font-family: 'AvenirLtStd85heavyReg_0'; font-size: 14px; text-transform: uppercase; }
+#txt2btm { position: absolute; top: 223px; left: 707px; color: #707271; font-size: 14px; }
+#txt2btm span { font-family: 'avenir-book-webfont_1'; }
+#sglTxt { position: absolute; top: 165px; left: 308px; font-family: 'AvenirLtStd85heavyReg_0'; font-size: 22px; color: #9f2943; }
+#dppTxt { position: absolute; top: 134px; left: 488px; font-family: 'AvenirLtStd85heavyReg_0'; font-size: 22px; color: #707271; }
+#kidney { position: absolute; top: 341px; left: 213px; z-index: 2; text-transform: uppercase; font-family: 'AvenirLtStd85heavyReg_0'; font-size: 14px; color: #9f2943; }
+#gut { position: absolute; top: 341px; left: 871px; z-index: 2; text-transform: uppercase; font-family: 'AvenirLtStd85heavyReg_0'; font-size: 14px; color: #9c9b9b; }
+#pan { position: absolute; top: 468px; left: 815px; z-index: 2; text-transform: uppercase; font-family: 'AvenirLtStd85heavyReg_0'; font-size: 14px; color: #9c9b9b; }
+#liver { position: absolute; top: 565px; left: 658px; z-index: 2; text-transform: uppercase; font-family: 'AvenirLtStd85heavyReg_0'; font-size: 14px; color: #9c9b9b; }
+#dap { position: absolute; top: 273px; left: 373px; font-family: 'avenir-book-webfont_1'; font-size: 14px; color: #9f2943; }
+#sax { position: absolute; top: 452px; left: 553px; font-family: 'avenir-book-webfont_1'; font-size: 14px; color: #707271; }
+footer { position: absolute; top: 605px; left: 106px; font-family: 'avenir-book-webfont_1'; font-size: 10.8px; }
+#infoOverlay { width: 113px; height: 38px; border-radius: 30px;/*background-color: #32b5f6;*/ position: absolute; left: 763px; top: 25px; z-index: 1; }
+#bibOverlay { width: 113px; height: 38px; border-radius: 30px;/*background-color: #32b5f6;*/ position: absolute; left: 886px; top: 25px; z-index: 1; }
+/*************** popUps *****************/
+.overlay { position: absolute; top: 0; left: 0; width: 1024px; height: 768px; background-color: #747475; opacity: 0.8; display: none; z-index: 3; }
+#sglpopUp { position: absolute; top: 123px; left: 503px; width: 465px; height: 533px; background-color: #ffffff; border-top-right-radius: 68px; border-bottom-left-radius: 69px; z-index: 4; display: none; }
+#sglclose { position: absolute; top: 120px; left: 955px; background-image: url(../images/moa/close.png); background-repeat: no-repeat; background-size: 22px 22px; width: 24px; height: 25px; z-index: 4; display: none; cursor: pointer; }
+#dpppopUp { position: absolute; top: 123px; left: 42px; width: 465px; height: 533px; background-color: #ffffff; border-top-right-radius: 68px; border-bottom-left-radius: 69px; z-index: 4; display: none; }
+#dppclose { position: absolute; top: 120px; left: 495px; background-image: url(../images/moa/close.png); background-repeat: no-repeat; background-size: 22px 22px; width: 24px; height: 25px; z-index: 4; display: none; cursor: pointer; }
+/****************** SGL PopUp Content *******************/
+#tringl1 { position: absolute; top: 49px; left: 31px; background-image: url(../images/moa/arw.png); background-repeat: no-repeat; background-size: 17px 19px; width: 18px; height: 20px; }
+#tringl2 { position: absolute; top: 247px; left: 31px; background-image: url(../images/moa/arw.png); background-repeat: no-repeat; background-size: 17px 19px; width: 18px; height: 20px; }
+#tringl3 { position: absolute; top: 406px; left: 31px; background-image: url(../images/moa/arw.png); background-repeat: no-repeat; background-size: 17px 19px; width: 18px; height: 20px; }
+#insulin { position: absolute; top: 47px; left: 66px; font-family: 'AvenirLtStd85heavyReg_0'; font-size: 18px; color: #373737; }
+#para1 { position: absolute; top: 76px; left: 66px; font-family: 'avenir-book-webfont_1'; font-size: 17.3px; line-height: 23px; color: #373737; }
+#para2 { position: absolute; top: 151px; left: 66px; font-family: 'avenir-book-webfont_1'; font-size: 17.5px; line-height: 23px; color: #373737; }
+#core { position: absolute; top: 245px; left: 66px; font-family: 'AvenirLtStd85heavyReg_0'; font-size: 18px; color: #373737; }
+#coreList { position: absolute; top: 274px; left: 89px; font-family: 'avenir-book-webfont_1'; font-size: 17.4px; }
+#coreList li:nth-child(2) { position: relative; top: 7px; font-size: 18px; }
+#coreList li:nth-child(3) { position: relative; top: 13px; font-size: 18px; }
+#coreList li:before { color: #373737; content: "—"; position: relative; left: -7px; margin-left: -16px; }
+#addtnl { position: absolute; top: 404px; left: 66px; font-family: 'AvenirLtStd85heavyReg_0'; font-size: 18px; color: #373737; }
+#addtnlList { position: absolute; top: 435px; left: 88px; font-family: 'avenir-book-webfont_1'; font-size: 17.4px; }
+#addtnlList li:nth-child(2) { position: relative; top: 7px; font-size: 18px; }
+#addtnlList li:before { color: #373737; content: "—"; position: relative; left: -7px; margin-left: -16px; }
+#sglFooter { position: absolute; top: 555px; left: 107px; color: #ffffff; font-family: 'avenir-book-webfont_1'; font-size: 10.7px; display: none; z-index: 3; }
+#sglFooter span { font-family: 'Gotham-Book_1'; }
+#sglFooter span span { font-size: 9.5px; }
+/****************** DPP PopUp Content *******************/
+#dpptri1 { position: absolute; top: 49px; left: 31px; background-image: url(../images/moa/arw.png); background-repeat: no-repeat; background-size: 17px 19px; width: 18px; height: 20px; }
+#dppInsulin { position: absolute; top: 47px; left: 66px; font-family: 'AvenirLtStd85heavyReg_0'; font-size: 18px; color: #373737; }
+#dppContent { position: absolute; top: 77px; left: 66px; font-family: 'avenir-book-webfont_1'; font-size: 17.2px; color: #373737; line-height: 22px; }
+#dpptri2 { position: absolute; top: 261px; left: 31px; background-image: url(../images/moa/arw.png); background-repeat: no-repeat; background-size: 17px 19px; width: 18px; height: 20px; }
+#coredpp { position: absolute; top: 259px; left: 66px; font-family: 'AvenirLtStd85heavyReg_0'; font-size: 18px; color: #373737; }
+#coredppList { position: absolute; top: 290px; left: 88px; font-family: 'avenir-book-webfont_1'; font-size: 17.4px; }
+#coredppList li:nth-child(2) { position: relative; top: 5px; font-size: 18px; }
+#coredppList li:nth-child(3) { position: relative; top: 12px; font-size: 18px; }
+#coredppList li:before { color: #373737; content: "—"; position: relative; left: -7px; margin-left: -16px; }
+/****************** Info PopUp Content *******************/
+#infopopUp { width: 1024px; height: 655px; position: absolute; top: 0; left: 0; z-index: 4; background-color: #512b69; display: none; }
+#infohead { position: absolute; top: 79px; left: 107px; color: #ffffff; font-family: 'Avenir-Roman_1'; font-size: 27.5px; }
+#infoLine { position: absolute; top: 161px; width: 1024px; background-color: #763f98; height: 1px; }
+#infoText { position: absolute; top: 193px; left: 107px; color: #ffffff; font-family: 'Avenir-Light_2'; font-size: 18px; }
+#infoText span { font-family: 'Gotham-Light_0'; }
+#infoText span > span { font-size: 15px; }
+#infoactive { width: 109px; height: 34px; border-radius: 30px; background-color: #ffffff; border: 2px solid #ffffff; position: absolute; left: 763px; top: 25px; color: #763f98; z-index: 5; }
+#infoactive span { font-family: 'avenir-medium-webfont_1'; font-size: 12px; color: #763f98; text-align: center; line-height: 13px; position: absolute; left: 23px; top: 5px; }
+/****************** Bibliography PopUp Content *******************/
+#bgraphypopUppopUp { width: 1024px; height: 655px; position: absolute; top: 0; left: 0; z-index: 4; background-color: #763f98; display: none; }
+#bgraphyactive { width: 109px; height: 34px; border-radius: 30px; background-color: transparent; border: 2px solid #ffffff; position: absolute; left: 886px; top: 25px; color: #763f98; z-index: 5; }
+#bgraphyactive span { font-family: 'avenir-medium-webfont_1'; font-size: 12px; color: #ffffff; text-align: center; line-height: 14px; position: absolute; left: 20px; top: 11px; }
+.sglAnimate {position: absolute;top: 415px;left: 399px;width: 34px;height: 36px;opacity: 0.5;border-radius: 50%;box-shadow: 0 0 0 0 rgba(102, 102, 102, 0.7);animation: pulse1 1.25s infinite cubic-bezier(0.66, 0, 0, 1);z-index: 18;/*background-color: #32b5f6;*/ cursor:pointer;}
+.sglAnimate:hover { animation:none;}
+@keyframes pulse1 {
+to {
+box-shadow: 0 0 0 45px rgba(232, 76, 61, 0);
+}
+}
